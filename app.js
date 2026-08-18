@@ -1,1 +1,5 @@
-console.log("Hello from my Jenkins application!");
+function add(a, b) {
+  return a + b;
+}
+
+module.exports = add;
