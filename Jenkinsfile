@@ -34,7 +34,7 @@ pipeline{
     }
             post {
             success {
-                echo 'Pipeline successful!'
+                echo 'Pipeline complete successful!'
             }
             failure {
                 echo 'Pipeline failed!'
